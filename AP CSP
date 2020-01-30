@@ -1,0 +1,58 @@
+function start (){
+    var gameTracker = [
+      {
+        game: 'basketball',
+        wins: 8,
+        losses: 2
+      },
+      {
+        game: 'soccer',
+        wins: 5,
+        losses: 5
+      },
+      {
+        game: 'football',
+        wins: 3,
+        losses: 7
+      },
+      {
+        game: 'swimming',
+        wins: 1,
+        losses: 9
+      },
+      {
+        game: 'hockey',
+        wins: 10,
+        losses: 0 
+      },
+      {
+        game: 'monopoly',
+        wins: 9,
+        losses: 1
+      },
+      {
+        game: 'tennis',
+        wins: 0, 
+        losses: 10
+      },
+      {
+        game: 'chutes and ladders',
+        wins: 4,
+        losses: 6
+      },
+      {
+        game: 'scrabble',
+        wins: 7,
+        losses: 3
+      },
+      {
+        game: 'battleship',
+        wins: 2,
+        losses: 8
+      }
+    ];
+    for(var i = 0; i < gameTracker.length; i++){
+    console.log('You have won ' + gameTracker[i].game + ' ' + gameTracker[i].wins + ' times.');
+    console.log('You have lost ' + gameTracker[i].game + ' ' + gameTracker[i].losses + ' times. ');
+    }
+}
